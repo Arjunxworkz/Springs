@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<!-- bean definitions here -->
-
-	<bean id="runbean" class="com.xworkz.running">
-		<property name="name" value="Vimal Jaiswal"></property>
-	</bean>
+   <bean class="com.xworkz.running.Running">
+   <constructor-arg name="name" value="chandru"></constructor-arg>
+   <constructor-arg name="avg" value ="12"></constructor-arg>
+  </bean>
+  
+  <bean class="java.lang.Integer">
+  <constructor-arg name="value" value="20"></constructor-arg>
+  </bean>
+  <bean class="java.lang.String">
+  <constructor-arg name="value" value="Ram"></constructor-arg>
+  </bean>
+  <bean class="java.lang.Double">
+  <constructor-arg name="value" value="12.5"></constructor-arg>
+  </bean>
+  <bean class="java.lang.Boolean">
+  <constructor-arg name="value" value="false"></constructor-arg>
+  </bean>
+  <bean class="java.lang.Long">
+  <constructor-arg name="value" value="30"></constructor-arg>
+  </bean>
 </beans>
+
+
+ 
