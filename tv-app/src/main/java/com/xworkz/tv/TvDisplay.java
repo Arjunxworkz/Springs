@@ -3,8 +3,11 @@ package com.xworkz.tv;
 public class TvDisplay {
 	private String type;
 
+	public TvDisplay(){
+		
+	}
+	
 	public TvDisplay(String type) {
-		//super();
 		this.type = type;
 	}
 

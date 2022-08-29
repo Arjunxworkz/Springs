@@ -5,18 +5,21 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
         
+        
+       
 <bean class="com.xworkz.tv.Tv">
 <constructor-arg name="name" value="Tv"></constructor-arg>
 <constructor-arg name="brand" value="lg"></constructor-arg>
 <constructor-arg name="price" value="12000"></constructor-arg>
-<constructor-arg name="display" value="sumsung"></constructor-arg>
-<constructor-arg name="remote" value="Remote"></constructor-arg>
-<constructor-arg name="box" value="setupBox"></constructor-arg>
-<constructor-arg name="stand" value="tvStand"></constructor-arg>
+<constructor-arg name="display" ref="disp"></constructor-arg>
+<constructor-arg name="remote" ref="remo"></constructor-arg>
+<constructor-arg name="box" ref="sbox"></constructor-arg>
+<constructor-arg name="stand" ref="stand"></constructor-arg>
 </bean>
 
 <bean class="com.xworkz.tv.TvDisplay" id="disp">
-<constructor-arg name="type" value="lcd"></constructor-arg>
+ <!-- <constructor-arg name="type" value="lcd"></constructor-arg>  -->
+<property name="type" value="icd"></property>
 </bean>
 <bean class="com.xworkz.tv.TvRemote" id="remo">
 <constructor-arg name="type" value="mobile"></constructor-arg>
