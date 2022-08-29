@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+<bean class="com.xworkz.tv.Tv">
+<constructor-arg name="name" value="Tv"></constructor-arg>
+<constructor-arg name="brand" value="lg"></constructor-arg>
+<constructor-arg name="price" value="12000"></constructor-arg>
+<constructor-arg name="display" value="sumsung"></constructor-arg>
+<constructor-arg name="remote" value="Remote"></constructor-arg>
+<constructor-arg name="box" value="setupBox"></constructor-arg>
+<constructor-arg name="stand" value="tvStand"></constructor-arg>
+</bean>
+
+<bean class="com.xworkz.tv.TvDisplay" id="disp">
+<constructor-arg name="type" value="lcd"></constructor-arg>
+</bean>
+<bean class="com.xworkz.tv.TvRemote" id="remo">
+<constructor-arg name="type" value="mobile"></constructor-arg>
+</bean>
+<bean class="com.xworkz.tv.TvSetupBox" id="sbox">
+<constructor-arg name="companyName" value="lg"></constructor-arg>
+</bean>
+<bean class="com.xworkz.tv.TvStand" id="stand">
+<constructor-arg name="type" value="steel"></constructor-arg>
+</bean>
+
+</beans>
+
+
+ 
