@@ -44,20 +44,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="tample"/>
 			<item value="com.xworkz"/>
-			<item value="com.xworkz.tv"/>
-			<item value="Its-a-snook"/>
 		</list>
 		<list key="name">
-			<item value="tample"/>
 		</list>
 		<list key="artifactId">
-			<item value="com.xworkz"/>
-			<item value="bike-app"/>
-			<item value="tv-app"/>
-			<item value="its-a-snook"/>
-			<item value="Its-a-snook"/>
+			<item value="mobile-app"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
