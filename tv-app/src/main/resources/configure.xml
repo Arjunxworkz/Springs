@@ -17,6 +17,9 @@
 <constructor-arg name="stand" ref="stand"></constructor-arg>
 </bean>
 
+
+
+
 <bean class="com.xworkz.tv.TvDisplay" id="disp">
  <!-- <constructor-arg name="type" value="lcd"></constructor-arg>  -->
 <property name="type" value="icd"></property>
