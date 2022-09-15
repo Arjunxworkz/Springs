@@ -7,6 +7,7 @@ public class MobileRunner {
 
 	public static void main(String[] args) {
 		ApplicationContext container=new ClassPathXmlApplicationContext("config.xml");
+		//System.out.println(container);
 		Mobile mobile=container.getBean(Mobile.class);
 		System.out.println(mobile.toString());
 	}

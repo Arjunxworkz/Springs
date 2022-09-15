@@ -8,5 +8,13 @@
         https://www.springframework.org/schema/context/spring-context.xsd">
 
    <context:component-scan base-package="com.xworkz.mobile"></context:component-scan>
+   <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+   <property name="location" value="mobile.properties"></property>
+   
+   </bean>
+   <bean class="com.xworkz.mobile.Mobile">
+   <property name="name" value="${name}"></property>
+   </bean>
+   
 
 </beans>
