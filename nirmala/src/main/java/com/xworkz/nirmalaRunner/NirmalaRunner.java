@@ -8,7 +8,7 @@ import com.xworkz.nirmalaEntity.NirmalaEntity;
 
 public class NirmalaRunner {
 public static void main(String []args) {
-	NirmalaEntity nirmalaEntity=new NirmalaEntity(1, "btm", "male", "public", 5.00, 10.00, "Darrshan", LocalDate.now(), "Manoj", LocalDate.now());
+	NirmalaEntity nirmalaEntity=new NirmalaEntity(3, "btm", "male", "public", 11.00, 10.00, "Darrshan", LocalDate.now(), "Manoj", LocalDate.now());
 	NirmalaDao nirmalaDao=new NirmalaDaoImpl();
 	nirmalaDao.save(nirmalaEntity);
 }
