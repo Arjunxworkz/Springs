@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.naming.Context"/>
-    <fullyQualifiedTypeName name="com.xworkz.running.Running"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.applet.AppletContext"/>
-    <fullyQualifiedTypeName name="com.xworkz.its_a_snook.SnookerGame"/>
     <fullyQualifiedTypeName name="com.xworkz.tv.TvRemote"/>
     <fullyQualifiedTypeName name="com.xworkz.tv.TvStand"/>
     <fullyQualifiedTypeName name="com.xworkz.tv.TvSetupBox"/>
@@ -16,8 +10,6 @@
     <fullyQualifiedTypeName name="com.xworkz.bike.Bajaj"/>
     <fullyQualifiedTypeName name="com.xworkz.mobile.sumsung.Sumsung"/>
     <fullyQualifiedTypeName name="com.xworkz.mobile.Mobile"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
@@ -47,9 +39,25 @@
     <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
-    <fullyQualifiedTypeName name="com.xworkz.nirmalaEntity.NirmalaEntity"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="com.xworkz.nirmalaDao.NirmalaDao"/>
     <fullyQualifiedTypeName name="com.xworkz.nirmalaDao.NirmalaDaoImpl"/>
+    <fullyQualifiedTypeName name="io.smallrye.common.constraint.NotNull"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.PastOrPresent"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.Min"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.Max"/>
+    <fullyQualifiedTypeName name="com.xworkz.nirmalaEntity.NirmalaEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.nirmala.service.NirmalaService"/>
+    <fullyQualifiedTypeName name="com.xworkz.nirmalaDao.NirmalaDao"/>
+    <fullyQualifiedTypeName name="javax.validation.Validation"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"/>
+    <fullyQualifiedTypeName name="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.xworkz.nirmala.configration.NirmalaConfigration"/>
+    <fullyQualifiedTypeName name="com.xworkz.nirmala.service.NirmalaServiceImpl"/>
 </qualifiedTypeNameHistroy>

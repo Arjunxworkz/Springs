@@ -1,0 +1,16 @@
+package com.xworkz.basanti.factory;
+
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class BasantiFactory {
+	private static EntityManagerFactory factory;
+
+	public static  EntityManagerFactory getfactory() {
+		return factory;
+	}
+
+	static {
+		factory=Persistence.createEntityManagerFactory("com.xworkz");
+	}
+}

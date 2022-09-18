@@ -49,6 +49,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="basanti"/>
 			<item value="nirmala"/>
 			<item value="metro"/>
 			<item value="phone-app"/>
