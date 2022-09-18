@@ -10,10 +10,13 @@ import com.xworkz.basanti.entity.BasantiEntity;
 import static com.xworkz.basanti.factory.BasantiFactory.*;
 
 public class BasantiDaoImpl implements BasantiDAO {
+	
+	
 	EntityManagerFactory factory =getfactory();
 	public BasantiDaoImpl(BasantiEntity basantiEntity) {
 		
 	}
+	
 	public boolean save(BasantiEntity basantiEntity) {
 	EntityManager manager = factory.createEntityManager();
 	try {

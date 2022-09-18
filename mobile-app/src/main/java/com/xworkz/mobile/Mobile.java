@@ -32,7 +32,7 @@ public class Mobile {
 		
 	}
 	
-	
+	//g
 
 	public String getName() {
 		return name;
